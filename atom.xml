@@ -6,7 +6,7 @@
   <link href="https://hch1212.github.io/atom.xml" rel="self"/>
   
   <link href="https://hch1212.github.io/"/>
-  <updated>2025-01-03T05:18:23.002Z</updated>
+  <updated>2025-01-03T11:17:21.035Z</updated>
   <id>https://hch1212.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我是如何部署好自己的博客</title>
+    <link href="https://hch1212.github.io/posts/f87da79b.html"/>
+    <id>https://hch1212.github.io/posts/f87da79b.html</id>
+    <published>2025-01-03T10:58:52.000Z</published>
+    <updated>2025-01-03T11:17:21.035Z</updated>
+    
+    <content type="html"><![CDATA[<div class="site-card-group"><a class="site-card" href="https://xaoxuu.com"><div class="img"><img src="https://bu.dusays.com/2023/06/01/6478965ce6557.webp"/></div><div class="info"><img src="https://cdn1.tianli0.top/gh/xaoxuu/cdn-assets/avatar/avatar.png"/><span class="title">xaoxuu</span><span class="desc">简约风格</span></div></a><a class="site-card" href="https://colsrch.top"><div class="img"><img src="https://i.loli.net/2020/08/22/dFRWXm52OVu8qfK.png"/></div><div class="info"><img src="https://cdn1.tianli0.top/gh/Colsrch/images/Colsrch/avatar.jpg"/><span class="title">Colsrch</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a><a class="site-card" href="https://linhk1606.github.io"><div class="img"><img src="https://bu.dusays.com/2023/06/01/6478963584621.png"/></div><div class="info"><img src="https://bu.dusays.com/2023/06/01/6478968743368.png"/><span class="title">Linhk1606</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;site-card-group&quot;&gt;&lt;a class=&quot;site-card&quot; href=&quot;https://xaoxuu.com&quot;&gt;&lt;div class=&quot;img&quot;&gt;&lt;img src=&quot;https://bu.dusays.com/2023/06/01/6478</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
