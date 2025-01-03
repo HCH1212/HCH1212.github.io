@@ -6,7 +6,7 @@
   <link href="https://hch1212.github.io/atom.xml" rel="self"/>
   
   <link href="https://hch1212.github.io/"/>
-  <updated>2025-01-03T12:51:20.895Z</updated>
+  <updated>2025-01-03T13:36:41.432Z</updated>
   <id>https://hch1212.github.io/</id>
   
   <author>
@@ -21,14 +21,15 @@
     <link href="https://hch1212.github.io/posts/f87da79b.html"/>
     <id>https://hch1212.github.io/posts/f87da79b.html</id>
     <published>2025-01-03T18:58:52.000Z</published>
-    <updated>2025-01-03T12:51:20.895Z</updated>
+    <updated>2025-01-03T13:36:41.432Z</updated>
     
-    <content type="html"><![CDATA[<div class="site-card-group"><a class="site-card" href="https://xaoxuu.com"><div class="img"><img src="https://bu.dusays.com/2023/06/01/6478965ce6557.webp"/></div><div class="info"><img src="https://cdn1.tianli0.top/gh/xaoxuu/cdn-assets/avatar/avatar.png"/><span class="title">xaoxuu</span><span class="desc">简约风格</span></div></a><a class="site-card" href="https://colsrch.top"><div class="img"><img src="https://i.loli.net/2020/08/22/dFRWXm52OVu8qfK.png"/></div><div class="info"><img src="https://cdn1.tianli0.top/gh/Colsrch/images/Colsrch/avatar.jpg"/><span class="title">Colsrch</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="一个点，找大佬"><a href="#一个点，找大佬" class="headerlink" title="一个点，找大佬"></a>一个点，找大佬</h1><p>直接上连接<br><div class="tip info"><p>info</p></div></p><ol><li>bilibili: <a href="https://www.bilibili.com/video/BV13v4y1c75G">https://www.bilibili.com/video/BV13v4y1c75G</a></li><li>博客：<a href="https://blog.anheyu.com/posts/sdxhu.html">https://blog.anheyu.com/posts/sdxhu.html</a> <a href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></li><li>主题官网：<a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a></li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;div class=&quot;site-card-group&quot;&gt;&lt;a class=&quot;site-card&quot; href=&quot;https://xaoxuu.com&quot;&gt;&lt;div class=&quot;img&quot;&gt;&lt;img src=&quot;https://bu.dusays.com/2023/06/01/6478</summary>
+    <summary type="html">&lt;h1 id=&quot;一个点，找大佬&quot;&gt;&lt;a href=&quot;#一个点，找大佬&quot; class=&quot;headerlink&quot; title=&quot;一个点，找大佬&quot;&gt;&lt;/a&gt;一个点，找大佬&lt;/h1&gt;&lt;p&gt;直接上连接&lt;br&gt;&lt;div class=&quot;tip info&quot;&gt;&lt;p&gt;info&lt;/p&gt;
+&lt;/div&gt;&lt;</summary>
       
     
     
@@ -40,8 +41,8 @@
     <title>Hello World</title>
     <link href="https://hch1212.github.io/posts/4a17b156.html"/>
     <id>https://hch1212.github.io/posts/4a17b156.html</id>
-    <published>2025-01-03T12:51:20.895Z</published>
-    <updated>2025-01-03T12:51:20.895Z</updated>
+    <published>2025-01-03T13:36:41.432Z</published>
+    <updated>2025-01-03T13:36:41.432Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
