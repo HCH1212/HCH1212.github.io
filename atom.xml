@@ -3,11 +3,11 @@
   <title>hch&amp;blog</title>
   
   <subtitle>welcome my blog</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://hch1212.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://hch1212.github.io/"/>
   <updated>2025-01-03T05:18:23.002Z</updated>
-  <id>http://example.com/</id>
+  <id>https://hch1212.github.io/</id>
   
   <author>
     <name>hch</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://hch1212.github.io/posts/4a17b156.html"/>
+    <id>https://hch1212.github.io/posts/4a17b156.html</id>
     <published>2025-01-03T04:59:32.569Z</published>
     <updated>2025-01-03T05:18:23.002Z</updated>
     
