@@ -17,6 +17,19 @@
     
     
     <entry>
+      <title>终于做好了</title>
+      <link href="/posts/d220841f.html"/>
+      <url>/posts/d220841f.html</url>
+      
+        <content type="html"><![CDATA[<p>目前应该博客所有功能都已经完善，自己也把图床搭建好了<br>遇到问题可以联系我反馈：<br>qq：2159965839</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>功能介绍</title>
       <link href="/posts/fbfa9c22.html"/>
       <url>/posts/fbfa9c22.html</url>
@@ -66,7 +79,7 @@
       <link href="/posts/f87da79b.html"/>
       <url>/posts/f87da79b.html</url>
       
-        <content type="html"><![CDATA[<h2 id="一个点，找大佬"><a href="#一个点，找大佬" class="headerlink" title="一个点，找大佬"></a>一个点，找大佬</h2><p>直接上连接<br><div class="tip info"><p>info</p></div></p><ol><li>bilibili: <a href="https://www.bilibili.com/video/BV13v4y1c75G">https://www.bilibili.com/video/BV13v4y1c75G</a></li><li>博客：<a href="https://blog.anheyu.com/posts/sdxhu.html">https://blog.anheyu.com/posts/sdxhu.html</a> <a href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></li><li>主题官网：<a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="一个点，找大佬"><a href="#一个点，找大佬" class="headerlink" title="一个点，找大佬"></a>一个点，找大佬</h2><p>直接上连接<br><div class="tip info"><p>info</p></div></p><ol><li>bilibili: <a href="https://www.bilibili.com/video/BV13v4y1c75G">https://www.bilibili.com/video/BV13v4y1c75G</a></li><li>博客：<a href="https://blog.anheyu.com/posts/sdxhu.html">https://blog.anheyu.com/posts/sdxhu.html</a> <a href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></li><li>主题官网：<a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a></li><li>live2d模型获取：<a href="https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E6%9B%B4%E5%A4%9A%E6%A8%A1%E5%9E%8B">https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E6%9B%B4%E5%A4%9A%E6%A8%A1%E5%9E%8B</a></li></ol>]]></content>
       
       
       
@@ -123,10 +136,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
+      <link href="/js/foot.js"/>
+      <url>/js/foot.js</url>
       
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {    if (document.hidden) {        //离开当前页面时标签显示内容        document.title = "w(ﾟДﾟ)w 不要离开我～";        clearTimeout(titleTime);    } else {        //返回当前页面时标签显示内容        document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;        //两秒后变回正常标题        titleTime = setTimeout(function () {            document.title = OriginTitile;        }, 2000);    }});]]></content>
+        <content type="html"><![CDATA[var now = new Date();function createtime() {    var grt = new Date("01/02/2025 00:00:00");    now.setTime(now.getTime() + 250);    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9            ? `<img class='boardsign' src='/img/siteicon/16.png' title='可爱捏~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`            : `<img class='boardsign' src='/img/siteicon/16.png' title='呆siki，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),        document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = currentTimeHtml);}setInterval(() => {    createtime();}, 250);]]></content>
       
     </entry>
     
@@ -134,10 +147,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/foot.js"/>
-      <url>/js/foot.js</url>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[var now = new Date();function createtime() {    var grt = new Date("01/02/2025 00:00:00");    now.setTime(now.getTime() + 250);    var days = (now - grt) / 1e3 / 60 / 60 / 24,        dnum = Math.floor(days),        hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,        hnum = Math.floor(hours);    1 == String(hnum).length && (hnum = "0" + hnum);    var minutes = (now - grt) / 1e3 / 60 - 1440 * dnum - 60 * hnum,        mnum = Math.floor(minutes);    1 == String(mnum).length && (mnum = "0" + mnum);    var seconds = (now - grt) / 1e3 - 86400 * dnum - 3600 * hnum - 60 * mnum,        snum = Math.round(seconds);    1 == String(snum).length && (snum = "0" + snum);    let currentTimeHtml = "";    (currentTimeHtml =        hnum < 18 && hnum >= 9            ? `<img class='boardsign' src='/img/siteicon/16.png' title='可爱捏~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`            : `<img class='boardsign' src='/img/siteicon/16.png' title='呆siki，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${dnum} 天</span><span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`),        document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = currentTimeHtml);}setInterval(() => {    createtime();}, 250);]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {    if (document.hidden) {        //离开当前页面时标签显示内容        document.title = "w(ﾟДﾟ)w 不要离开我～";        clearTimeout(titleTime);    } else {        //返回当前页面时标签显示内容        document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;        //两秒后变回正常标题        titleTime = setTimeout(function () {            document.title = OriginTitile;        }, 2000);    }});]]></content>
       
     </entry>
     
