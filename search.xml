@@ -17,6 +17,25 @@
     
     
     <entry>
+      <title>go语言main包中的一个小tips</title>
+      <link href="/posts/bedba3d.html"/>
+      <url>/posts/bedba3d.html</url>
+      
+        <content type="html"><![CDATA[<p>Go 应用中 package main 的规则</p><p>package<br>golang 的所有文件都需要指定其所在的包（package），包有两种类型，一种是 main 包，使用 package main 在代码的最前面声明。另外一种就是 非 main 包，使用 package + 包名 。main 包可以有唯一的一个 main 函数，这个函数也是程序的入口。也只有 main 包可以编译成可执行的文件。</p><p>规则<br>1.import 导入的是相对路径，非 package 名！</p><ol><li><p>习惯上将 package 名和目录名保持一致，如实例中 package A 尽量在./A 文件夹下</p></li><li><p>代码中引用包方法 / 对象 / 变量时，如调用 package A 中的 a 函数，使用 A.a 而非目录名</p></li><li><p>同一目录下，所有源文件必须使用相同的包名，一个文件夹下只能有一个 package；如果多个文件夹下有同名 package，其实只是彼此无关的 package，如果需要同时使用不同目录下的同名 package，import 时需要为每个目录指定 package 别名：</p></li><li><p>同一 package 下不同文件间可以直接调用</p></li><li><p>大写字母开头的变量方法暴露到包外，包内大小写随意</p></li><li><p>多个 go 文件在 main 包下是无法相互调用的，需要使用 go run *.go 命令</p></li></ol><p>上述转载自@Luson的文章<a href="https://learnku.com/articles/65136">https://learnku.com/articles/65136</a></p><h3 id="我遇到的问题："><a href="#我遇到的问题：" class="headerlink" title="我遇到的问题："></a>我遇到的问题：</h3><p>多个 go 文件在 main 包下是无法相互调用的，但是编译器不会报错，<br>直接运行go run main.go会报错undefined</p><h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><p>运行go run . 或者 go run *.go</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>终于做好了</title>
       <link href="/posts/d220841f.html"/>
       <url>/posts/d220841f.html</url>
