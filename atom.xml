@@ -6,7 +6,7 @@
   <link href="https://blog.hch1212.online/atom.xml" rel="self"/>
   
   <link href="https://blog.hch1212.online/"/>
-  <updated>2025-02-10T03:57:31.032Z</updated>
+  <updated>2025-02-16T11:05:39.543Z</updated>
   <id>https://blog.hch1212.online/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://blog.hch1212.online/posts/4a17b156.html"/>
     <id>https://blog.hch1212.online/posts/4a17b156.html</id>
-    <published>2025-02-10T03:57:31.032Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <published>2025-02-16T11:05:39.543Z</published>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -41,7 +41,7 @@
     <link href="https://blog.hch1212.online/posts/bedba3d.html"/>
     <id>https://blog.hch1212.online/posts/bedba3d.html</id>
     <published>2025-01-08T11:14:52.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<p>Go 应用中 package main 的规则</p><p>package<br>golang 的所有文件都需要指定其所在的包（package），包有两种类型，一种是 main 包，使用 package main 在代码的最前面声明。另外一种就是 非 main 包，使用 package + 包名 。main 包可以有唯一的一个 main 函数，这个函数也是程序的入口。也只有 main 包可以编译成可执行的文件。</p><p>规则<br>1.import 导入的是相对路径，非 package 名！</p><ol><li><p>习惯上将 package 名和目录名保持一致，如实例中 package A 尽量在./A 文件夹下</p></li><li><p>代码中引用包方法 / 对象 / 变量时，如调用 package A 中的 a 函数，使用 A.a 而非目录名</p></li><li><p>同一目录下，所有源文件必须使用相同的包名，一个文件夹下只能有一个 package；如果多个文件夹下有同名 package，其实只是彼此无关的 package，如果需要同时使用不同目录下的同名 package，import 时需要为每个目录指定 package 别名：</p></li><li><p>同一 package 下不同文件间可以直接调用</p></li><li><p>大写字母开头的变量方法暴露到包外，包内大小写随意</p></li><li><p>多个 go 文件在 main 包下是无法相互调用的，需要使用 go run *.go 命令</p></li></ol><p>上述转载自@Luson的文章<a href="https://learnku.com/articles/65136">https://learnku.com/articles/65136</a></p><h3 id="我遇到的问题："><a href="#我遇到的问题：" class="headerlink" title="我遇到的问题："></a>我遇到的问题：</h3><p>多个 go 文件在 main 包下是无法相互调用的，但是编译器不会报错，<br>直接运行go run main.go会报错undefined</p><h3 id="解决办法："><a href="#解决办法：" class="headerlink" title="解决办法："></a>解决办法：</h3><p>运行go run . 或者 go run *.go</p>]]></content>
     
@@ -64,7 +64,7 @@
     <link href="https://blog.hch1212.online/posts/d220841f.html"/>
     <id>https://blog.hch1212.online/posts/d220841f.html</id>
     <published>2025-01-06T04:47:13.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<p>目前应该博客所有功能都已经完善，自己也把图床搭建好了<br>遇到问题可以联系我反馈：<br>qq：2159965839</p>]]></content>
     
@@ -85,7 +85,7 @@
     <link href="https://blog.hch1212.online/posts/fbfa9c22.html"/>
     <id>https://blog.hch1212.online/posts/fbfa9c22.html</id>
     <published>2025-01-04T09:53:18.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<div class='checkbox red'><input type="radio" />            <p>前情提示：打不开网站或网站卡顿可尝试魔法</p>            </div><h2 id="介绍一下目前已实现的功能，方便大家使用"><a href="#介绍一下目前已实现的功能，方便大家使用" class="headerlink" title="介绍一下目前已实现的功能，方便大家使用"></a>介绍一下目前已实现的功能，方便大家使用</h2><ol><li>文章</li><li>时钟</li><li>左下角音乐（自己的歌单，想添加歌曲可以联系我）</li><li>时间轴</li><li>留言板</li><li>追番</li><li>可爱小人</li><li>搜索</li><li>下载为应用程序</li></ol><div class='checkbox green'><input type="radio" />            <p>联系方式qq:2159965839（用的多）</p>            </div>]]></content>
     
@@ -108,7 +108,7 @@
     <link href="https://blog.hch1212.online/posts/45e49464.html"/>
     <id>https://blog.hch1212.online/posts/45e49464.html</id>
     <published>2025-01-04T09:41:27.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<h2 id="为什么突发奇想部署自己的博客"><a href="#为什么突发奇想部署自己的博客" class="headerlink" title="为什么突发奇想部署自己的博客"></a>为什么突发奇想部署自己的博客</h2><ol><li>装*</li><li>写点想写的日常东西</li><li>记录平时的一些学习笔记</li><li>希望与大佬交流</li></ol><h2 id="部署过程"><a href="#部署过程" class="headerlink" title="部署过程"></a>部署过程</h2><p>大概花了两天时间，跟着b站安知鱼大佬做的，不算踩太多坑，不过中间还是有一些意外的bug需要自己去找了改正，也是一个学习的过程。</p><h2 id="学到了什么"><a href="#学到了什么" class="headerlink" title="学到了什么"></a>学到了什么</h2><ol><li>hexo</li><li>butterfly</li><li>twikoo</li><li>vercel</li><li>mongodb</li><li>域名购买及使用</li><li>一些css/js知识</li></ol><h2 id="接下来的安排"><a href="#接下来的安排" class="headerlink" title="接下来的安排"></a>接下来的安排</h2><p>明天期末考试了呜呜呜，让我先复习一下吧。<br>预计寒假会继续完善该网站的功能以及对图床的增加。</p>]]></content>
     
@@ -132,7 +132,7 @@
     <link href="https://blog.hch1212.online/posts/c41eee36.html"/>
     <id>https://blog.hch1212.online/posts/c41eee36.html</id>
     <published>2025-01-04T02:38:42.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<div class="tip info"><p>该博客正在开发中，功能尚不完善，敬请谅解qwq~</p></div>]]></content>
     
@@ -154,7 +154,7 @@
     <link href="https://blog.hch1212.online/posts/f87da79b.html"/>
     <id>https://blog.hch1212.online/posts/f87da79b.html</id>
     <published>2025-01-03T10:58:52.000Z</published>
-    <updated>2025-02-10T03:57:31.032Z</updated>
+    <updated>2025-02-16T11:05:39.543Z</updated>
     
     <content type="html"><![CDATA[<h2 id="一个点，找大佬"><a href="#一个点，找大佬" class="headerlink" title="一个点，找大佬"></a>一个点，找大佬</h2><p>直接上连接<br><div class="tip info"><p>info</p></div></p><ol><li>bilibili: <a href="https://www.bilibili.com/video/BV13v4y1c75G">https://www.bilibili.com/video/BV13v4y1c75G</a></li><li>博客：<a href="https://blog.anheyu.com/posts/sdxhu.html">https://blog.anheyu.com/posts/sdxhu.html</a> <a href="https://blog.anheyu.com/posts/d50a.html">https://blog.anheyu.com/posts/d50a.html</a></li><li>主题官网：<a href="https://butterfly.js.org/posts/21cfbf15/">https://butterfly.js.org/posts/21cfbf15/</a></li><li>live2d模型获取：<a href="https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E6%9B%B4%E5%A4%9A%E6%A8%A1%E5%9E%8B">https://easyhexo.com/3-Plugins-use-and-config/3-3-hexo-helper-live2d/#%E6%9B%B4%E5%A4%9A%E6%A8%A1%E5%9E%8B</a></li></ol>]]></content>
     
