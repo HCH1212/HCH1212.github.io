@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.hch1212.online/manifest.json</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +13,7 @@
   <url>
     <loc>https://blog.hch1212.online/link/index.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -22,43 +22,7 @@
   <url>
     <loc>https://blog.hch1212.online/tags/index.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hch1212.online/posts/fbfa9c22.html</loc>
-    
-    <lastmod>2025-04-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hch1212.online/posts/f87da79b.html</loc>
-    
-    <lastmod>2025-04-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hch1212.online/posts/d220841f.html</loc>
-    
-    <lastmod>2025-04-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.hch1212.online/categories/index.html</loc>
-    
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +31,7 @@
   <url>
     <loc>https://blog.hch1212.online/posts/c41eee36.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -76,7 +40,7 @@
   <url>
     <loc>https://blog.hch1212.online/posts/45e49464.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,7 +49,7 @@
   <url>
     <loc>https://blog.hch1212.online/posts/1abe9f77.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -94,7 +58,7 @@
   <url>
     <loc>https://blog.hch1212.online/posts/bedba3d.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -103,7 +67,43 @@
   <url>
     <loc>https://blog.hch1212.online/posts/4a17b156.html</loc>
     
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hch1212.online/posts/e0e9002e.html</loc>
+    
+    <lastmod>2025-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hch1212.online/posts/fbfa9c22.html</loc>
+    
+    <lastmod>2025-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hch1212.online/posts/f87da79b.html</loc>
+    
+    <lastmod>2025-04-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hch1212.online/categories/index.html</loc>
+    
+    <lastmod>2025-04-13</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -112,7 +112,7 @@
 
   <url>
     <loc>https://blog.hch1212.online/</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -120,14 +120,21 @@
   
   <url>
     <loc>https://blog.hch1212.online/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.hch1212.online/tags/go/</loc>
-    <lastmod>2025-04-04</lastmod>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.hch1212.online/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2025-04-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
